@@ -7,10 +7,6 @@ import start.FrameForAdminPassword;
 public class FrameForAdminPasswordAnyaTest {
 
     @org.junit.Test
-    public void passwordTrue() {
-        assertEquals(true,new FrameForAdminPassword().password("anya"));
-    }
-    @org.junit.Test
     public void passwordFalse() {
         assertEquals(false,new FrameForAdminPassword().password("adsdasd"));
     }

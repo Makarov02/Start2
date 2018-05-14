@@ -18,8 +18,5 @@ public class FrameForWorkerTest {
         assertEquals(1,new FrameForWorker().calculationsCartridge(500,1000),0.001);
     }
 
-    @Test
-    public void calculationsLoad() {
-        assertEquals(100,new FrameForWorker().calculationsLoad(10000,15000,"Xerox Phaser 3020BI"),0.001);
-    }
+
 }
